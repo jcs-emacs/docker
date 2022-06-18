@@ -1,4 +1,4 @@
-# This dockerfile is for jcs-emacs with 27
+# This dockerfile is for jcs-emacs with 28
 # VERSION 8.1.1
 # Author: Jen-Chieh Shen <jcs090218@gmail.com>
 # Command format: Instruction [arguments / command] ..
