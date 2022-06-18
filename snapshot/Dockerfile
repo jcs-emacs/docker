@@ -4,20 +4,9 @@
 # Command format: Instruction [arguments / command] ..
 
 # Base image to use
-FROM ubuntu:latest
-ARG DEBIAN_FRONTEND=noninteractive
+FROM silex/emacs
 
-# Commands to update the image
-RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak
-RUN sed -i "s/ports.ubuntu.com/mirrors.aliyun.com/g" /etc/apt/sources.list
-RUN apt-get update
-RUN apt-get upgrade -y
-RUN apt-get install -y software-properties-common git
-
-# Install Centaur Emacs
-RUN add-apt-repository -y ppa:ubuntu-elisp/ppa
-RUN apt-get update
-RUN apt-get install -y emacs-snapshot-nox
+# Install jcs-emacs
 RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d
 
 ENV TERM xterm-256color
