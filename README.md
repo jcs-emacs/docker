@@ -1,5 +1,9 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # docker
 > Docker Image for jcs-emacs
+
+[![Build](https://github.com/jcs-emacs/docker/actions/workflows/build.yml/badge.svg)](https://github.com/jcs-emacs/docker/actions/workflows/build.yml)
 
 ## 🔨 Usage
 
