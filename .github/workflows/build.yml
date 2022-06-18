@@ -25,7 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        emacs-version: [28.1, snapshot]
+        emacs-version: [28, snapshot]
 
     steps:
     - uses: actions/checkout@v2
