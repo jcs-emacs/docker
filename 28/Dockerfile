@@ -8,7 +8,7 @@ FROM nixos/nix
 
 # Install Emacs
 RUN nix-channel --update
-RUN nix-env -iA "emacs-27-2" -f "https://github.com/purcell/nix-emacs-ci/archive/master.tar.gz"
+RUN nix-env -iA "emacs-28-1" -f "https://github.com/purcell/nix-emacs-ci/archive/master.tar.gz"
 
 # Install jcs-emacs
 RUN nix-env --install git
