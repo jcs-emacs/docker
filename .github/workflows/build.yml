@@ -23,7 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        emacs-version: [28, snapshot]
+        emacs-version: [27.x, 28.x, snapshot]
 
     steps:
     - uses: actions/checkout@v2
