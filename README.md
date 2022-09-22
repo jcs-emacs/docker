@@ -16,7 +16,7 @@ git clone https://github.com/jcs-emacs/docker
 cd docker
 ```
 
-Step2, build docker image and run interactively:
+Step 2, build docker image and run interactively:
 
 ```
 docker build -t jcs-emacs ./snapshot/
