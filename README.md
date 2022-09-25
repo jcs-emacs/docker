@@ -11,15 +11,15 @@
 
 Step 1, clone this repo and navigate to the project path:
 
-```
-git clone https://github.com/jcs-emacs/docker
-cd docker
+```sh
+$ git clone https://github.com/jcs-emacs/docker
+$ cd docker
 ```
 
 Step 2, build docker image and run interactively:
 
-```
-docker build -t jcs-emacs ./snapshot/
+```sh
+$ docker build -t jcs-emacs ./snapshot/
 ```
 
 This will build docker image with Emacs `snapshot` version installed.
