@@ -1,3 +1,6 @@
+<img align="right" src="https://raw.githubusercontent.com/jcs-emacs/jcs-elpa/master/docs/etc/sink_black.png#gh-light-mode-only" width="25%"/>
+<img align="right" src="https://raw.githubusercontent.com/jcs-emacs/jcs-elpa/master/docs/etc/sink_white.png#gh-dark-mode-only" width="25%"/>
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Linux](https://img.shields.io/badge/-Linux-fcc624?logo=linux&style=flat&logoColor=black)](#)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jcs090218/jcs-emacs.svg?logo=docker&label=pulls&logoColor=white)](https://hub.docker.com/r/jcs090218/jcs-emacs)
