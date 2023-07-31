@@ -1,5 +1,5 @@
 # This dockerfile is for jcs-emacs with 29.x
-# VERSION 8.2.1
+# VERSION 9.0.0
 # Author: Jen-Chieh Shen <jcs090218@gmail.com>
 # Command format: Instruction [arguments / command] ..
 
@@ -12,7 +12,7 @@ RUN nix-env -iA "emacs-29-1" -f "https://github.com/purcell/nix-emacs-ci/archive
 
 # Install jcs-emacs
 RUN nix-env --install git
-RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --branch 8.2.1
+RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --branch 9.0.0
 
 ENV TERM xterm-256color
 WORKDIR /root
