@@ -1,5 +1,5 @@
 # This dockerfile is for jcs-emacs with snapshot
-# VERSION 8.2.1
+# VERSION 9.0.0
 # Author: Jen-Chieh Shen <jcs090218@gmail.com>
 # Command format: Instruction [arguments / command] ..
 
