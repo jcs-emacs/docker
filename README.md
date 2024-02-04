@@ -31,7 +31,7 @@ $ docker build -t jcs-emacs ./snapshot/
 
 This will build docker image with Emacs `snapshot` version installed.
 
-## Contribute
+## 🛠️ Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Donate on paypal](https://img.shields.io/badge/paypal-donate-1?logo=paypal&color=blue)](https://www.paypal.me/jcs090218)
