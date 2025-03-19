@@ -19,17 +19,17 @@
 Step 1, clone this repo and navigate to the project path:
 
 ```sh
-$ git clone https://github.com/jcs-emacs/docker
-$ cd docker
+git clone https://github.com/jcs-emacs/docker
+cd docker
 ```
 
-Step 2, build docker image and run interactively:
+Step 2, build docker image with target Emacs version and run interactively:
 
 ```sh
-$ docker build -t jcs-emacs ./snapshot/
+docker build -t jcs-emacs ./27.x/
 ```
 
-This will build docker image with Emacs `snapshot` version installed.
+This will build docker image with Emacs `27.x` version installed.
 
 ## 🛠️ Contribute
 
