@@ -12,7 +12,7 @@ RUN nix-env -iA "emacs-28-2" -f "https://github.com/purcell/nix-emacs-ci/archive
 
 # Install jcs-emacs
 RUN nix-env --install git
-RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --branch 8.1.0
+RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --branch 8.1.0 --recursive
 
 ENV TERM xterm-256color
 WORKDIR /root
