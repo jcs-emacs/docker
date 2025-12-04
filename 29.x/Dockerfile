@@ -13,9 +13,5 @@ RUN nix-env -iA "emacs-29-4" -f "https://github.com/purcell/nix-emacs-ci/archive
 # Install jcs-emacs
 RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --branch 9.0.0 --recursive
 
-# Use specific version
-WORKDIR ~/.emacs.d
-RUN git checkout tags/9.0.0
-
 ENV TERM xterm-256color
 WORKDIR /root
