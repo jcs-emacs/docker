@@ -1,5 +1,5 @@
 # This dockerfile is for jcs-emacs with snapshot
-# VERSION 9.0.0
+# VERSION latest
 # Author: Jen-Chieh Shen <jcs090218@gmail.com>
 # Command format: Instruction [arguments / command] ..
 
@@ -11,7 +11,6 @@ RUN nix-channel --update
 RUN nix-env -iA "emacs-snapshot" -f "https://github.com/purcell/nix-emacs-ci/archive/master.tar.gz"
 
 # Install jcs-emacs
-RUN nix-env --install git
 RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --recursive
 
 ENV TERM xterm-256color
