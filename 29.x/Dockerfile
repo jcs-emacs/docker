@@ -11,7 +11,7 @@ RUN nix-channel --update
 RUN nix-env -iA "emacs-29-4" -f "https://github.com/purcell/nix-emacs-ci/archive/master.tar.gz"
 
 # Install jcs-emacs
-RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --recursive
+RUN git clone --depth 1 https://github.com/jcs-emacs/jcs-emacs.git ~/.emacs.d --branch 9.0.0 --recursive
 
 # Use specific version
 WORKDIR ~/.emacs.d
